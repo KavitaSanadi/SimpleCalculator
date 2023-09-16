@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+	
+  <p style="font-size: 2vw;">I've developed a user-friendly basic calculator application capable of performing essential arithmetic operations such as addition, subtraction, multiplication, and division. 
+	The interface is designed for ease of use, making it accessible to a wide audience. 
+	I built this project using HTML,CSS and Javascript, ensuring its functionality and reliability.
+	 I'll demonstrate its operation during the presentation and discuss any challenges I encountered and overcame. 
+	 Additionally, I have plans to enhance and expand its features in the future, keeping it a dynamic project.</p>
+	<div class="calculator">
+		<div class="display">
+			<input type="text" id="result" disabled>
+		</div>
+		<div class="buttons">
+			<button onclick="clearResult()">C</button>
+			<button onclick="insertValue('7')">7</button>
+			<button onclick="insertValue('8')">8</button>
+			<button onclick="insertValue('9')">9</button>
+			<button onclick="insertOperator('/')">/</button>
+			<button onclick="insertValue('4')">4</button>
+			<button onclick="insertValue('5')">5</button>
+			<button onclick="insertValue('6')">6</button>
+			<button onclick="insertOperator('*')">*</button>
+			<button onclick="insertValue('1')">1</button>
+			<button onclick="insertValue('2')">2</button>
+			<button onclick="insertValue('3')">3</button>
+			<button onclick="insertOperator('-')">-</button>
+			<button onclick="insertValue('0')">0</button>
+			<button onclick="insertValue('.')">.</button>
+			<button onclick="calculateResult()">=</button>
+			<button onclick="insertOperator('+')">+</button>
+		</div>
+	</div>
+	<script src="calculator.js"></script>
+	<b><p style="font-size: 2vw; text-align: center;"> Thank You For Visiting!</p></b>
+</body>
+</html>
